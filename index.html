@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dev ❤️ Shaifu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Floating Hearts -->
+  <div class="hearts"></div>
+
+  <!-- Music -->
+  <audio id="music" loop>
+    <source src="love.mp3" type="audio/mpeg">
+  </audio>
+
+  <div class="container">
+
+    <!-- PASSWORD SCREEN -->
+    <div id="lockScreen">
+      <h2>🔒 For Shaifu ❤️</h2>
+      <p class="question">How many years are we completing together?</p>
+      <input type="number" id="passwordInput" placeholder="Your answer 💭" />
+      <button id="unlockBtn">Unlock 💖</button>
+      <p id="error" class="error hidden">Hmm… try again 🥺</p>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="mainContent" class="hidden">
+      <h1>Shaifu ❤️</h1>
+      <p class="subtitle">This is from my heart…</p>
+
+      <button id="startBtn">Tap Here 💌</button>
+
+      <!-- Love Letter -->
+      <div id="letter" class="hidden">
+        <p>
+          Hey Shaifu,<br><br>
+          From the moment you came into my life,  
+          everything started feeling softer and brighter.
+        </p>
+        <p>
+          You are my comfort, my safe place,  
+          and my favorite person — always.
+        </p>
+        <p>
+          Seven years with you feels like a blessing  
+          I want forever. 💖
+        </p>
+
+        <p class="signature">— Dev</p>
+
+        <button id="nextBtn">One More Thing 🥺</button>
+      </div>
+
+      <!-- Proposal -->
+      <div id="proposal" class="hidden">
+        <h2>Will you be my Valentine? 💕</h2>
+        <div class="buttons">
+          <button id="yesBtn">YES 😍</button>
+          <button id="noBtn">No 🙈</button>
+        </div>
+      </div>
+
+      <!-- YES SCREEN -->
+      <div id="yesScreen" class="hidden">
+        <h2>YAYYYY 💖💖💖</h2>
+        <p>
+          You just made me the happiest person alive.<br>
+          I love you endlessly, Shaifu ❤️
+        </p>
+        <p class="signature">Forever yours, Dev</p>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
